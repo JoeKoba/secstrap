@@ -25,7 +25,7 @@ $(document).ready(function () {
             $("#user-profile #lastName").prop("readonly", true);
             $("#user-profile #age").prop("readonly", true);
             $("#user-profile #email").prop("readonly", true);
-            $("#user-profile #roles").prop("disabled", true);
+            $("#user-profile #roles").prop("disabled", true);function
             let submit = $('#user-profile .modal-footer .submit');
             submit.text('Delete');
             submit.addClass('btn-danger');
